@@ -26,6 +26,18 @@ a{
 }
 
 /*pour tout les contacts */
+.bouton
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.bouton-item
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .bouton1
 {
   border: 4px red outset;
@@ -64,7 +76,6 @@ a{
 }
 .bouton3
 {
-
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
@@ -79,6 +90,11 @@ a{
 .bouton3 a
 {
   color: black;
+}
+.bouton-details
+{
+  font-weight: 600;
+  text-align: center;
 }
 .background
 {
