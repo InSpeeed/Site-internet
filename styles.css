@@ -21,12 +21,13 @@ p{
 .titre-contacts{
 font-size:20px;
 }
+a{
+  text-decoration: none;
+}
 
 /*pour tout les contacts */
 .bouton1
 {
-  justify-content: space-between;
-  display: flex;
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
@@ -45,8 +46,7 @@ font-size:20px;
 }
 .bouton2
 {
-  justify-content: space-between;
-  display: flex;
+
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
@@ -58,15 +58,13 @@ font-size:20px;
   box-shadow: 4x 4px 4px red inset ;
   border: 4px red inset;
 }
-/*pour tout les contacts */
 .bouton2 a
 {
   color: black;
 }
 .bouton3
 {
-  justify-content: space-between;
-  display: flex;
+
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
@@ -78,7 +76,6 @@ font-size:20px;
   box-shadow: 4x 4px 4px red inset ;
   border: 4px red inset;
 }
-/*pour tout les contacts */
 .bouton3 a
 {
   color: black;
