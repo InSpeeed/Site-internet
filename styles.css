@@ -22,11 +22,25 @@ p{
 font-size:20px;
 }
 /*modifier la liste des contacts*/
-.contacts{
-justify-content: space-between;
-display: flex;
+.contacts
+{
+  justify-content: space-between;
+  display: flex;
+  border: 4px blue outset;
+  border-radius: 20px;
+  background-color: blue;
+  box-shadow: 4px 4px 4px black;
+}
+.contacts:active
+{
+  box-shadow: 4x 4px 4px blue inset ;
+  border: 4px blue inset;
 }
 /*pour tout les contacts */
+.contacts div
+{
+  z-index: 999;
+}
 
 
 
