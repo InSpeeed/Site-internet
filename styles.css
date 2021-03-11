@@ -23,11 +23,11 @@ font-size:20px;
 }
 /*modifier la liste des contacts*/
 .contacts{
-
+justify-content: space-between;
+display: flex;
 }
 /*pour tout les contacts */
-.Octozu,  .InSpeed, .Tarzan{
-  display: auto;
-  position:relative;
+
+
 
 }
