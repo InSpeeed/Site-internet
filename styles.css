@@ -21,7 +21,8 @@ p{
 .titre-contacts{
 font-size:20px;
 }
-/*modifier la liste des contacts*/
+
+/*pour tout les contacts */
 .contacts
 {
   justify-content: space-between;
@@ -37,11 +38,7 @@ font-size:20px;
   border: 4px blue inset;
 }
 /*pour tout les contacts */
-.contacts div
+.contacts a
 {
-  z-index: 999;
-}
-
-
-
+  color:#FFF;
 }
