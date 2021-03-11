@@ -1,0 +1,33 @@
+/*importation de la police */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+/*pour tout modifier*/
+*{
+  padding: 10px;
+  margin: 0;
+  font-family: Libre Franklin;
+}
+/*pour mofifier le titre principale */
+.Titre{
+  text-align: center;
+  font-family: Anton;
+}
+
+/* modifier les paragraphe p*/
+p{
+  text-align: center;
+}
+.titre-contacts{
+font-size:20px;
+}
+/*modifier la liste des contacts*/
+.contacts{
+
+}
+/*pour tout les contacts */
+.Octozu,  .InSpeed, .Tarzan{
+  display: auto;
+  position:relative;
+
+}
