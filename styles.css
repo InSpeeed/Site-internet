@@ -23,23 +23,63 @@ font-size:20px;
 }
 
 /*pour tout les contacts */
-.contacts
+.bouton1
 {
   justify-content: space-between;
   display: flex;
-  border: 4px blue outset;
+  border: 4px red outset;
   width: 80px;
   border-radius: 20px;
-  background-color: blue;
+  background-color: red;
   box-shadow: 4px 4px 4px black;
 }
-.contacts:active
+.bouton1:active
 {
-  box-shadow: 4x 4px 4px blue inset ;
-  border: 4px blue inset;
+  box-shadow: 4x 4px 4px red inset ;
+  border: 4px red inset;
 }
 /*pour tout les contacts */
-.contacts a
+.bouton1 a
 {
-  color:#FFF;
+  color: black;
+}
+.bouton2
+{
+  justify-content: space-between;
+  display: flex;
+  border: 4px red outset;
+  width: 80px;
+  border-radius: 20px;
+  background-color: red;
+  box-shadow: 4px 4px 4px black;
+}
+.bouton2:active
+{
+  box-shadow: 4x 4px 4px red inset ;
+  border: 4px red inset;
+}
+/*pour tout les contacts */
+.bouton2 a
+{
+  color: black;
+}
+.bouton3
+{
+  justify-content: space-between;
+  display: flex;
+  border: 4px red outset;
+  width: 80px;
+  border-radius: 20px;
+  background-color: red;
+  box-shadow: 4px 4px 4px black;
+}
+.bouton3:active
+{
+  box-shadow: 4x 4px 4px red inset ;
+  border: 4px red inset;
+}
+/*pour tout les contacts */
+.bouton3 a
+{
+  color: black;
 }
