@@ -28,6 +28,7 @@ font-size:20px;
   justify-content: space-between;
   display: flex;
   border: 4px blue outset;
+  width: 80px;
   border-radius: 20px;
   background-color: blue;
   box-shadow: 4px 4px 4px black;
