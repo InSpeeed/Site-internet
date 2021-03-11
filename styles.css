@@ -83,3 +83,8 @@ font-size:20px;
 {
   color: black;
 }
+.background
+{
+  background: url(images/fde.jpg);
+  color: white;
+}
