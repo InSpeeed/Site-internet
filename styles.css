@@ -82,6 +82,6 @@ a{
 }
 .background
 {
-  background: url(images/fde.jpg);
+  background: url(images/fde.jpg) no-repeat;
   color: white;
 }
