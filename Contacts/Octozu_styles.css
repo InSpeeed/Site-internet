@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Bannier{
+  vertical-align: middle;
+  width: 500px
+}
+.photo img{
+  border: 3px solid;
+  border-radius: 300px;
+  width: 150px;
+}
