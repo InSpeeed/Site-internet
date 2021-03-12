@@ -3,101 +3,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 
 /*pour tout modifier*/
-*{
+* {
   padding: 10px;
   margin: 0;
   font-family: Libre Franklin;
 }
+
+/*background*/
+.background {
+  background: url(images/fde.jpg) no-repeat;
+  color: white;
+}
+
 /*pour mofifier le titre principale */
-.Titre{
+.Titre {
   text-align: center;
   font-family: Anton;
 }
 
 /* modifier les paragraphe p*/
-p{
+p {
   text-align: center;
 }
-.titre-contacts{
-font-size:20px;
-}
-a{
-  text-decoration: none;
+
+.titre-contacts {
+  font-size: 20px;
 }
 
-/*pour tout les contacts */
-.bouton
-{
+a {
+  text-decoration: none;
+  text-align: center;
+  color: white
+}
+
+
+/*bouton */
+
+
+.bouton {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
-.bouton-item
-{
+
+.bouton-item {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.bouton1
-{
-  border: 4px red outset;
-  width: 80px;
-  border-radius: 20px;
-  background-color: red;
-  box-shadow: 4px 4px 4px black;
-}
-.bouton1:active
-{
-  box-shadow: 4x 4px 4px red inset ;
-  border: 4px red inset;
-}
-/*pour tout les contacts */
-.bouton1 a
-{
-  color: black;
-}
-.bouton2
-{
 
+.bouton1 {
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
   background-color: red;
   box-shadow: 4px 4px 4px black;
 }
-.bouton2:active
-{
-  box-shadow: 4x 4px 4px red inset ;
+
+.bouton1:active {
+  box-shadow: 4x 4px 4px red inset;
   border: 4px red inset;
 }
-.bouton2 a
-{
+
+.bouton1 a {
   color: black;
 }
-.bouton3
-{
+
+.bouton2 {
   border: 4px red outset;
   width: 80px;
   border-radius: 20px;
   background-color: red;
   box-shadow: 4px 4px 4px black;
 }
-.bouton3:active
-{
-  box-shadow: 4x 4px 4px red inset ;
+
+.bouton2:active {
+  box-shadow: 4x 4px 4px red inset;
   border: 4px red inset;
 }
-.bouton3 a
-{
+
+.bouton2 a {
   color: black;
 }
-.bouton-details
-{
+
+.bouton3 {
+  border: 4px red outset;
+  width: 80px;
+  border-radius: 20px;
+  background-color: red;
+  box-shadow: 4px 4px 4px black;
+}
+
+.bouton3:active {
+  box-shadow: 4x 4px 4px red inset;
+  border: 4px red inset;
+}
+
+.bouton3 a {
+  color: black;
+}
+
+.bouton-details {
   font-weight: 600;
   text-align: center;
 }
-.background
-{
-  background: url(images/fde.jpg) no-repeat;
-  color: white;
-}
+
+/* bouton*/
