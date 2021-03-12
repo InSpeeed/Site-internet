@@ -10,4 +10,13 @@
   border: 3px solid;
   border-radius: 300px;
   width: 150px;
+
+
+}
+.photo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  bottom:50px;
 }
